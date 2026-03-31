@@ -1,22 +1,33 @@
 
 <!DOCTYPE html>
-<html>
+<html lang='az'>
 <head>
     <meta charset='UTF-8'>
-    <title>Cuppulu Xəbər Portalı</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Cuppulu News Portal</title>
     <style>
-        body { font-family: Arial; padding: 20px; background: #f4f4f4; }
-        h1 { color: #333; }
+        body { font-family: 'Segoe UI', sans-serif; margin: 0; background: #0a0a0a; color: #e0e0e0; 
+               background-image: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85)), url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=2070');
+               background-size: cover; background-attachment: fixed; }
+        .container { max-width: 900px; margin: 40px auto; background: rgba(15,15,15,0.95); padding: 30px; border-radius: 25px; border: 1px solid #333; box-shadow: 0 10px 50px rgba(0,0,0,0.5); }
+        h1 { text-align: center; color: #fff; text-transform: uppercase; letter-spacing: 5px; border-bottom: 2px solid #0057b7; padding-bottom: 15px; margin-bottom: 30px; }
         ul { list-style: none; padding: 0; }
-        li { background: white; margin-bottom: 10px; padding: 15px; border-radius: 5px; }
-        a { text-decoration: none; color: blue; font-weight: bold; }
+        li { background: rgba(255,255,255,0.03); margin-bottom: 10px; padding: 15px; border-radius: 12px; transition: 0.2s; display: flex; align-items: center; gap: 10px; }
+        li:hover { background: rgba(0,87,183,0.1); transform: translateX(5px); }
+        a { text-decoration: none; color: #ddd; font-size: 17px; line-height: 1.4; }
+        a:hover { color: #0057b7; }
+        .footer { text-align: center; margin-top: 40px; color: #555; font-size: 13px; border-top: 1px solid #222; padding-top: 20px; }
     </style>
 </head>
 <body>
-    <h1>Son Xəbərlər (Avtomatik Yenilənir)</h1>
-    <ul>
-        
-    </ul>
-    <p>Son yenilənmə: GitHub Actions tərəfindən</p>
+    <div class='container'>
+        <h1>CUPPULU NEWS</h1>
+        <ul>
+
+        </ul>
+        <div class='footer'>
+            <p>Sistem: 3 Mənbədən Avtomatik Yenilənmə | Son: 31.03.2026 19:43</p>
+        </div>
+    </div>
 </body>
 </html>
